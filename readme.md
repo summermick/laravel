@@ -7,7 +7,7 @@
 1. php artisan ser
 2. cd ng
 3. npm build
-4. cp dist to rsc/asset
+4. cp dist to resources/asset
 5. npm run watch
 
 I need combine step 2-5 into one 
