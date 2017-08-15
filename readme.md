@@ -4,6 +4,7 @@
 - [ ] make a script to build ng2 app
 
 ##steps to run
+cp ng app use ng-cli
 1. php artisan ser
 2. cd ng
 3. npm build
