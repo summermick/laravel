@@ -11,5 +11,11 @@ let mix = require('laravel-mix');
  |
  */
 
+
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+    .js('resources/assets/js/inline.bundle.js', 'public/js').sourceMaps()
+    .js('resources/assets/js/main.bundle.js', 'public/js').sourceMaps()
+    .js('resources/assets/js/polyfills.bundle.js', 'public/js').sourceMaps()
+    .js('resources/assets/js/styles.bundle.js', 'public/js').sourceMaps()
+    .js('resources/assets/js/vendor.bundle.js', 'public/js').sourceMaps()
+    .sass('resources/assets/sass/app.scss', 'public/css');
